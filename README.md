@@ -4,7 +4,7 @@ openvpn created by me
 
 Run the script and follow the assistant:
 
-wget https://raw.githubusercontent.com/sniffed/openvpn/master/oculusprotectiveservicesOpenvpn?token=AMXIPTNMSPDD5ZYKBN6BPBC5KK7LW -O openvpn-install.sh && bash openvpn-install.sh
+wget https://raw.githubusercontent.com/sniffed/openvpn/master/oculusprotectiveservicesOpenvpn.sh -O openvpn-install.sh && bash openvpn-install.sh
 
 Once it ends, you can run it again to add more users, remove some of them or even completely uninstall OpenVPN.
 

@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-# https://github.com/Nyr/openvpn-install
+# https://github.com/sniffed/openvpn
 #
-# Copyright (c) 2013 Nyr. Released under the MIT License.
+# Copyright (c) 2019 snlffed. 
 
 
 if grep -qs "Ubuntu 16.04" "/etc/os-release"; then
@@ -63,8 +63,8 @@ if [[ -e /etc/openvpn/server/server.conf ]]; then
 		echo "Looks like OpenVPN is already installed."
 		echo
 		echo "What do you want to do?"
-		echo "   1) Add a new user"
-		echo "   2) Revoke an existing user"
+		echo "   1) Add a paying client"
+		echo "   2) Revoke a broke fuck"
 		echo "   3) Remove OpenVPN"
 		echo "   4) Exit"
 		read -p "Select an option [1-4]: " option
@@ -164,7 +164,7 @@ if [[ -e /etc/openvpn/server/server.conf ]]; then
 	done
 else
 	clear
-	echo 'Welcome to this OpenVPN "road warrior" installer!'
+	echo 'Welcome to this OpenVPN "odins warrior" installer!'
 	echo
 	# OpenVPN setup and first user creation
 	echo "I need to ask you a few questions before starting the setup."
